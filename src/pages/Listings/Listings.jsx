@@ -56,6 +56,7 @@ function Listings() {
         <div className="form-control w-full mb-12 ml-16">
           <input
             type="text"
+            name="title"
             placeholder="Enter The Book's Title"
             value={title}
             className="input input-bordered w-full max-w-2xl"
@@ -68,6 +69,7 @@ function Listings() {
         <div className="form-control w-full mb-12 ml-16">
           <input
             type="text"
+            name = "category"
             placeholder="Enter The Book's Category"
             value={category}
             className="input input-bordered w-full max-w-2xl"
@@ -84,6 +86,7 @@ function Listings() {
               <input
                 id="default-checkbox"
                 type="checkbox"
+                name="action"
                 value="Action"
                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
               />
@@ -97,6 +100,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="adventure"
                   value="Adventure"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -111,6 +115,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="fantasy"
                   value="Fantasy"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -125,6 +130,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="horror"
                   value="Horror"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -139,6 +145,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="isekai"
                   value="Isekai"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -153,6 +160,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="medical"
                   value="Medical"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -167,6 +175,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="romance"
                   value="Romance"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -181,6 +190,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="scifi"
                   value="Sci-Fi"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -195,6 +205,7 @@ function Listings() {
                 <input
                   id="default-checkbox"
                   type="checkbox"
+                  name="supernatural"
                   value="Supernatural"
                   class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
@@ -212,6 +223,7 @@ function Listings() {
           <input
             type="text"
             placeholder="Enter The Initial Price"
+            name="price"
             value={price}
             className="input input-bordered w-full max-w-2xl"
             onChange={(e) => {
@@ -224,6 +236,7 @@ function Listings() {
           <input
             type="text"
             placeholder="Enter The Book's Link to Image"
+            name="img"
             value={img}
             className="input input-bordered w-full max-w-2xl"
             onChange={(e) => {
@@ -235,6 +248,7 @@ function Listings() {
         <div className="form-control w-full mb-12 ml-16">
           <input
             type="text"
+            name="desc"
             placeholder="Enter the Description..."
             value={description}
             className="input input-bordered w-full max-w-2xl"
@@ -247,6 +261,7 @@ function Listings() {
         <div className="form-control w-full mb-12 ml-16">
           <input
             type="text"
+            name="time"
             placeholder="Enter the Duration of the Auction in Hours"
             value={time}
             className="input input-bordered w-full max-w-2xl"

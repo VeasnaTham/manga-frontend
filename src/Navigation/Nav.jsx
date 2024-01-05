@@ -37,6 +37,7 @@ const Nav = ({ handleInputChange, query }) => {
         <input
           className="search-input"
           type="text"
+          name="search"
           onChange={handleInputChange}
           value={query}
           placeholder="Enter Manga/Manhwa/Manhua Title..."
