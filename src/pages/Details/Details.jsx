@@ -3,7 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 
 function Details() {
-  const [items, setItems] = useState(null);
+  const [items, setItems] = useState("");
   const { id } = useParams();
   const [isLoading, setIsLoading] = useState(true);
   const [bid, setBid] = useState(""); // Initialize bid state with an empty string
